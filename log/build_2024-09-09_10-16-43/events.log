@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000627] (-) JobUnselected: {'identifier': 'test_mecanum'}
+[0.000686] (mecanum) JobQueued: {'identifier': 'mecanum', 'dependencies': OrderedDict()}
+[0.000710] (mecanum) JobStarted: {'identifier': 'mecanum'}
+[0.012120] (mecanum) JobProgress: {'identifier': 'mecanum', 'progress': 'cmake'}
+[0.012651] (mecanum) JobProgress: {'identifier': 'mecanum', 'progress': 'build'}
+[0.013407] (mecanum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mark/mecanum_nav/build/mecanum', '--', '-j20', '-l20'], 'cwd': '/home/mark/mecanum_nav/build/mecanum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mark'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/mecanum_nav/install/wait_set/lib:/home/mark/mecanum_nav/install/tutorial_interfaces/lib:/home/mark/mecanum_nav/install/turtlesim/lib:/home/mark/mecanum_nav/install/polygon_plugins/lib:/home/mark/mecanum_nav/install/neo_localization2/lib:/home/mark/mecanum_nav/install/neo_local_planner2/lib:/home/mark/mecanum_nav/install/minimal_subscriber/lib:/home/mark/mecanum_nav/install/minimal_composition/lib:/home/mark/mecanum_nav/install/gazebo_mecanum_plugins/lib:/home/mark/mecanum_nav/install/action_tutorials_cpp/lib:/home/mark/mecanum_nav/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1626'), ('SYSTEMD_EXEC_PID', '1788'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14377'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/mecanum_nav/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:10584'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-Dell-G15-5530:@/tmp/.ICE-unix/1760,unix/mark-Dell-G15-5530:/tmp/.ICE-unix/1760'), ('INVOCATION_ID', 'cb748b8fd0ba4b348c9eadbf9862e2ed'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GSFOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/mecanum_nav/install/wait_set:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/tutorial_interfaces:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtlesim:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/simple_bt:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/polygon_plugins:/home/mark/mecanum_nav/install/polygon_base:/home/mark/mecanum_nav/install/neo_localization2:/home/mark/mecanum_nav/install/neo_local_planner2:/home/mark/mecanum_nav/install/my_package:/home/mark/mecanum_nav/install/minimal_subscriber:/home/mark/mecanum_nav/install/minimal_service:/home/mark/mecanum_nav/install/minimal_publisher:/home/mark/mecanum_nav/install/minimal_composition:/home/mark/mecanum_nav/install/minimal_action:/home/mark/mecanum_nav/install/mecanum:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/gazebo_mecanum_plugins:/home/mark/mecanum_nav/install/executors:/home/mark/mecanum_nav/install/depth_anything_ros:/home/mark/mecanum_nav/install/cpp_srvcli:/home/mark/mecanum_nav/install/cpp_pubsub:/home/mark/mecanum_nav/install/cpp_parameter_event_handler:/home/mark/mecanum_nav/install/btcpp_sample:/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world:/home/mark/mecanum_nav/install/articubot_one:/home/mark/mecanum_nav/install/articubot:/home/mark/mecanum_nav/install/action_tutorials_cpp:/home/mark/mecanum_nav/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:16b821df-9d75-499f-81ea-9c9d67097cd7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/mecanum_nav/build/mecanum'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/mecanum_nav/install/py_srvcli/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/py_pubsub/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mark/mecanum_nav/build/learning_tf2_py:/home/mark/mecanum_nav/install/learning_tf2_py/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/turtlesim/local/lib/python3.10/dist-packages:/home/mark/mecanum_nav/install/turtle_nav/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/python_parameters/lib/python3.10/site-packages:/home/mark/mecanum_nav/build/launch_tutorial:/home/mark/mecanum_nav/install/launch_tutorial/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/joint_state_publisher/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/guard_conditions/lib/python3.10/site-packages:/home/mark/mecanum_nav/build/articubot:/home/mark/mecanum_nav/install/articubot/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/mecanum_nav/install/wait_set:/home/mark/mecanum_nav/install/tutorial_interfaces:/home/mark/mecanum_nav/install/turtlesim:/home/mark/mecanum_nav/install/simple_bt:/home/mark/mecanum_nav/install/polygon_plugins:/home/mark/mecanum_nav/install/polygon_base:/home/mark/mecanum_nav/install/neo_localization2:/home/mark/mecanum_nav/install/neo_local_planner2:/home/mark/mecanum_nav/install/my_package:/home/mark/mecanum_nav/install/minimal_subscriber:/home/mark/mecanum_nav/install/minimal_service:/home/mark/mecanum_nav/install/minimal_publisher:/home/mark/mecanum_nav/install/minimal_composition:/home/mark/mecanum_nav/install/minimal_action:/home/mark/mecanum_nav/install/mecanum:/home/mark/mecanum_nav/install/gazebo_mecanum_plugins:/home/mark/mecanum_nav/install/executors:/home/mark/mecanum_nav/install/depth_anything_ros:/home/mark/mecanum_nav/install/cpp_srvcli:/home/mark/mecanum_nav/install/cpp_pubsub:/home/mark/mecanum_nav/install/cpp_parameter_event_handler:/home/mark/mecanum_nav/install/btcpp_sample:/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world:/home/mark/mecanum_nav/install/articubot_one:/home/mark/mecanum_nav/install/action_tutorials_cpp:/home/mark/mecanum_nav/install/action_tutorials_interfaces:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/articubot:/opt/ros/humble')]), 'shell': False}
+[0.078302] (mecanum) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_lifecycle\x1b[0m\n'}
+[0.093689] (mecanum) StdoutLine: {'line': b'[ 20%] Built target view_frames\n'}
+[0.095508] (mecanum) StdoutLine: {'line': b'[ 40%] Built target control\n'}
+[0.096428] (mecanum) StdoutLine: {'line': b'[ 60%] Built target fixed_frame\n'}
+[0.099403] (-) TimerEvent: {}
+[0.102099] (mecanum) StdoutLine: {'line': b'[ 80%] Built target followpath_lifecycle\n'}
+[0.108444] (mecanum) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/control_lifecycle.dir/src/control_lifecycle.cpp.o\x1b[0m\n'}
+[0.199612] (-) TimerEvent: {}
+[0.300037] (-) TimerEvent: {}
+[0.385044] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:203:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-line comment [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment\x07-Wcomment\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.385370] (mecanum) StderrLine: {'line': b'  203 |         \x1b[01;35m\x1b[K/\x1b[m\x1b[K/ get_logger(), "Lifecycle publisher is active. Publishing: linear: x= %f y= %f z= %f \\n -----\\n angular: x= %f y= %f z=%f", \\\n'}
+[0.385497] (mecanum) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.400272] (-) TimerEvent: {}
+[0.500811] (-) TimerEvent: {}
+[0.601435] (-) TimerEvent: {}
+[0.701998] (-) TimerEvent: {}
+[0.802492] (-) TimerEvent: {}
+[0.903008] (-) TimerEvent: {}
+[1.003514] (-) TimerEvent: {}
+[1.103990] (-) TimerEvent: {}
+[1.204480] (-) TimerEvent: {}
+[1.305006] (-) TimerEvent: {}
+[1.405487] (-) TimerEvent: {}
+[1.505935] (-) TimerEvent: {}
+[1.606407] (-) TimerEvent: {}
+[1.706851] (-) TimerEvent: {}
+[1.807409] (-) TimerEvent: {}
+[1.907781] (-) TimerEvent: {}
+[2.008248] (-) TimerEvent: {}
+[2.108610] (-) TimerEvent: {}
+[2.209027] (-) TimerEvent: {}
+[2.309663] (-) TimerEvent: {}
+[2.410151] (-) TimerEvent: {}
+[2.510513] (-) TimerEvent: {}
+[2.610893] (-) TimerEvent: {}
+[2.711258] (-) TimerEvent: {}
+[2.811737] (-) TimerEvent: {}
+[2.912053] (-) TimerEvent: {}
+[2.917011] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LifecycleControl::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.917201] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:65:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfeedback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.917278] (mecanum) StderrLine: {'line': b'   65 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<const nav2_msgs::action::NavigateToPose::Feedback> feedback\x1b[m\x1b[K)\n'}
+[2.917337] (mecanum) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.927367] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LifecycleControl::publish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.927518] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kw1\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.927585] (mecanum) StderrLine: {'line': b'  190 |     double_t \x1b[01;35m\x1b[Kw1\x1b[m\x1b[K,w2,w3,w4;\n'}
+[2.927646] (mecanum) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.927700] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kw2\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.927752] (mecanum) StderrLine: {'line': b'  190 |     double_t w1,\x1b[01;35m\x1b[Kw2\x1b[m\x1b[K,w3,w4;\n'}
+[2.927802] (mecanum) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.927853] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kw3\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.927906] (mecanum) StderrLine: {'line': b'  190 |     double_t w1,w2,\x1b[01;35m\x1b[Kw3\x1b[m\x1b[K,w4;\n'}
+[2.927958] (mecanum) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.928007] (mecanum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kw4\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.928081] (mecanum) StderrLine: {'line': b'  190 |     double_t w1,w2,w3,\x1b[01;35m\x1b[Kw4\x1b[m\x1b[K;\n'}
+[2.928139] (mecanum) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.012205] (-) TimerEvent: {}
+[3.112505] (-) TimerEvent: {}
+[3.212803] (-) TimerEvent: {}
+[3.313146] (-) TimerEvent: {}
+[3.413450] (-) TimerEvent: {}
+[3.513823] (-) TimerEvent: {}
+[3.614209] (-) TimerEvent: {}
+[3.714625] (-) TimerEvent: {}
+[3.815471] (-) TimerEvent: {}
+[3.915964] (-) TimerEvent: {}
+[4.016380] (-) TimerEvent: {}
+[4.116813] (-) TimerEvent: {}
+[4.217223] (-) TimerEvent: {}
+[4.317722] (-) TimerEvent: {}
+[4.418207] (-) TimerEvent: {}
+[4.518660] (-) TimerEvent: {}
+[4.619160] (-) TimerEvent: {}
+[4.719568] (-) TimerEvent: {}
+[4.820071] (-) TimerEvent: {}
+[4.920547] (-) TimerEvent: {}
+[5.021003] (-) TimerEvent: {}
+[5.121377] (-) TimerEvent: {}
+[5.221746] (-) TimerEvent: {}
+[5.322242] (-) TimerEvent: {}
+[5.422704] (-) TimerEvent: {}
+[5.523171] (-) TimerEvent: {}
+[5.623677] (-) TimerEvent: {}
+[5.724167] (-) TimerEvent: {}
+[5.824468] (-) TimerEvent: {}
+[5.924781] (-) TimerEvent: {}
+[6.025070] (-) TimerEvent: {}
+[6.125355] (-) TimerEvent: {}
+[6.225638] (-) TimerEvent: {}
+[6.325962] (-) TimerEvent: {}
+[6.426280] (-) TimerEvent: {}
+[6.526589] (-) TimerEvent: {}
+[6.626883] (-) TimerEvent: {}
+[6.727193] (-) TimerEvent: {}
+[6.827509] (-) TimerEvent: {}
+[6.927802] (-) TimerEvent: {}
+[7.028164] (-) TimerEvent: {}
+[7.128448] (-) TimerEvent: {}
+[7.228739] (-) TimerEvent: {}
+[7.329153] (-) TimerEvent: {}
+[7.429459] (-) TimerEvent: {}
+[7.529756] (-) TimerEvent: {}
+[7.630099] (-) TimerEvent: {}
+[7.730387] (-) TimerEvent: {}
+[7.830712] (-) TimerEvent: {}
+[7.931033] (-) TimerEvent: {}
+[8.031332] (-) TimerEvent: {}
+[8.131610] (-) TimerEvent: {}
+[8.231906] (-) TimerEvent: {}
+[8.332262] (-) TimerEvent: {}
+[8.432556] (-) TimerEvent: {}
+[8.532862] (-) TimerEvent: {}
+[8.633235] (-) TimerEvent: {}
+[8.733506] (-) TimerEvent: {}
+[8.833825] (-) TimerEvent: {}
+[8.934203] (-) TimerEvent: {}
+[9.034530] (-) TimerEvent: {}
+[9.134813] (-) TimerEvent: {}
+[9.235106] (-) TimerEvent: {}
+[9.335447] (-) TimerEvent: {}
+[9.435795] (-) TimerEvent: {}
+[9.457088] (mecanum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control_lifecycle\x1b[0m\n'}
+[9.535923] (-) TimerEvent: {}
+[9.636280] (-) TimerEvent: {}
+[9.736633] (-) TimerEvent: {}
+[9.836992] (-) TimerEvent: {}
+[9.937362] (-) TimerEvent: {}
+[10.028319] (mecanum) StdoutLine: {'line': b'[100%] Built target control_lifecycle\n'}
+[10.037505] (-) TimerEvent: {}
+[10.045552] (mecanum) CommandEnded: {'returncode': 0}
+[10.113183] (mecanum) JobProgress: {'identifier': 'mecanum', 'progress': 'install'}
+[10.126401] (mecanum) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mark/mecanum_nav/build/mecanum'], 'cwd': '/home/mark/mecanum_nav/build/mecanum', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mark'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mark/mecanum_nav/install/wait_set/lib:/home/mark/mecanum_nav/install/tutorial_interfaces/lib:/home/mark/mecanum_nav/install/turtlesim/lib:/home/mark/mecanum_nav/install/polygon_plugins/lib:/home/mark/mecanum_nav/install/neo_localization2/lib:/home/mark/mecanum_nav/install/neo_local_planner2/lib:/home/mark/mecanum_nav/install/minimal_subscriber/lib:/home/mark/mecanum_nav/install/minimal_composition/lib:/home/mark/mecanum_nav/install/gazebo_mecanum_plugins/lib:/home/mark/mecanum_nav/install/action_tutorials_cpp/lib:/home/mark/mecanum_nav/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1626'), ('SYSTEMD_EXEC_PID', '1788'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14377'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mark/mecanum_nav/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:10584'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/mark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mark-Dell-G15-5530:@/tmp/.ICE-unix/1760,unix/mark-Dell-G15-5530:/tmp/.ICE-unix/1760'), ('INVOCATION_ID', 'cb748b8fd0ba4b348c9eadbf9862e2ed'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GSFOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mark/mecanum_nav/install/wait_set:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/tutorial_interfaces:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtlesim:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/simple_bt:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/polygon_plugins:/home/mark/mecanum_nav/install/polygon_base:/home/mark/mecanum_nav/install/neo_localization2:/home/mark/mecanum_nav/install/neo_local_planner2:/home/mark/mecanum_nav/install/my_package:/home/mark/mecanum_nav/install/minimal_subscriber:/home/mark/mecanum_nav/install/minimal_service:/home/mark/mecanum_nav/install/minimal_publisher:/home/mark/mecanum_nav/install/minimal_composition:/home/mark/mecanum_nav/install/minimal_action:/home/mark/mecanum_nav/install/mecanum:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/gazebo_mecanum_plugins:/home/mark/mecanum_nav/install/executors:/home/mark/mecanum_nav/install/depth_anything_ros:/home/mark/mecanum_nav/install/cpp_srvcli:/home/mark/mecanum_nav/install/cpp_pubsub:/home/mark/mecanum_nav/install/cpp_parameter_event_handler:/home/mark/mecanum_nav/install/btcpp_sample:/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world:/home/mark/mecanum_nav/install/articubot_one:/home/mark/mecanum_nav/install/articubot:/home/mark/mecanum_nav/install/action_tutorials_cpp:/home/mark/mecanum_nav/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:16b821df-9d75-499f-81ea-9c9d67097cd7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/mecanum_nav/build/mecanum'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mark/mecanum_nav/install/py_srvcli/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/py_pubsub/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/mark/mecanum_nav/build/learning_tf2_py:/home/mark/mecanum_nav/install/learning_tf2_py/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/turtlesim/local/lib/python3.10/dist-packages:/home/mark/mecanum_nav/install/turtle_nav/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/python_parameters/lib/python3.10/site-packages:/home/mark/mecanum_nav/build/launch_tutorial:/home/mark/mecanum_nav/install/launch_tutorial/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/joint_state_publisher_gui/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/joint_state_publisher/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/guard_conditions/lib/python3.10/site-packages:/home/mark/mecanum_nav/build/articubot:/home/mark/mecanum_nav/install/articubot/lib/python3.10/site-packages:/home/mark/mecanum_nav/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mark/mecanum_nav/install/wait_set:/home/mark/mecanum_nav/install/tutorial_interfaces:/home/mark/mecanum_nav/install/turtlesim:/home/mark/mecanum_nav/install/simple_bt:/home/mark/mecanum_nav/install/polygon_plugins:/home/mark/mecanum_nav/install/polygon_base:/home/mark/mecanum_nav/install/neo_localization2:/home/mark/mecanum_nav/install/neo_local_planner2:/home/mark/mecanum_nav/install/my_package:/home/mark/mecanum_nav/install/minimal_subscriber:/home/mark/mecanum_nav/install/minimal_service:/home/mark/mecanum_nav/install/minimal_publisher:/home/mark/mecanum_nav/install/minimal_composition:/home/mark/mecanum_nav/install/minimal_action:/home/mark/mecanum_nav/install/mecanum:/home/mark/mecanum_nav/install/gazebo_mecanum_plugins:/home/mark/mecanum_nav/install/executors:/home/mark/mecanum_nav/install/depth_anything_ros:/home/mark/mecanum_nav/install/cpp_srvcli:/home/mark/mecanum_nav/install/cpp_pubsub:/home/mark/mecanum_nav/install/cpp_parameter_event_handler:/home/mark/mecanum_nav/install/btcpp_sample:/home/mark/mecanum_nav/install/aws_robomaker_small_warehouse_world:/home/mark/mecanum_nav/install/articubot_one:/home/mark/mecanum_nav/install/action_tutorials_cpp:/home/mark/mecanum_nav/install/action_tutorials_interfaces:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/articubot:/opt/ros/humble')]), 'shell': False}
+[10.136818] (mecanum) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.137251] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config\n'}
+[10.137355] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/mapper_params_online_async.yaml\n'}
+[10.137726] (-) TimerEvent: {}
+[10.137891] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/gazebo_params.yaml\n'}
+[10.138001] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/robot_visual.rviz\n'}
+[10.138076] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/my_controllers.yaml\n'}
+[10.138189] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/twist_mux.yaml\n'}
+[10.138259] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description\n'}
+[10.138321] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/gazebo_control.xacro\n'}
+[10.138401] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/face.xacro\n'}
+[10.138459] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/robot.urdf.xacro\n'}
+[10.138517] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/robot_core.xacro\n'}
+[10.138573] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/camera.xacro\n'}
+[10.138629] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/lidar.xacro\n'}
+[10.138684] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/ros2_control.xacro\n'}
+[10.138739] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/depth_camera.xacro\n'}
+[10.138795] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/inertial_macros.xacro\n'}
+[10.138849] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch\n'}
+[10.138906] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/empty_world.launch.py\n'}
+[10.138962] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/rsp.launch.py\n'}
+[10.139018] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/zm_robot_empty_world.launch.py\n'}
+[10.139076] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/launch_sim.launch.py\n'}
+[10.139158] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf\n'}
+[10.139219] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot.urdf.xacro\n'}
+[10.139278] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_LR.urdf.xacro\n'}
+[10.139334] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_LF.urdf.xacro\n'}
+[10.139397] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.transmission.xacro\n'}
+[10.139453] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.gazebo\n'}
+[10.139509] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/materials.xacro\n'}
+[10.139564] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_RR.urdf.xacro\n'}
+[10.139619] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_RF.urdf.xacro\n'}
+[10.139697] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.urdf.xacro\n'}
+[10.139813] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_plugin.gazebo\n'}
+[10.140124] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel.gazebo\n'}
+[10.140283] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes\n'}
+[10.140403] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/IMU_sensor.stl\n'}
+[10.140516] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_left_after.stl\n'}
+[10.140627] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/kinect_v2.stl\n'}
+[10.140738] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/sick_s30b.stl\n'}
+[10.140849] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_left_before.stl\n'}
+[10.140982] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_right_before.stl\n'}
+[10.141092] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/agv_base.stl\n'}
+[10.141213] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_right_after.stl\n'}
+[10.141324] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_roller.stl\n'}
+[10.141430] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/world\n'}
+[10.141540] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/world/empty.world\n'}
+[10.141651] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/control\n'}
+[10.141760] (mecanum) StdoutLine: {'line': b'-- Installing: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/control_lifecycle\n'}
+[10.144747] (mecanum) StdoutLine: {'line': b'-- Set runtime path of "/home/mark/mecanum_nav/install/mecanum/lib/mecanum/control_lifecycle" to ""\n'}
+[10.145009] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/followpath_lifecycle\n'}
+[10.145435] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/fixed_frame\n'}
+[10.145860] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/view_frames\n'}
+[10.146091] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/package_run_dependencies/mecanum\n'}
+[10.146487] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/parent_prefix_path/mecanum\n'}
+[10.146643] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/ament_prefix_path.sh\n'}
+[10.146720] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/ament_prefix_path.dsv\n'}
+[10.146790] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/path.sh\n'}
+[10.146855] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/path.dsv\n'}
+[10.146918] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.bash\n'}
+[10.146980] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.sh\n'}
+[10.147042] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.zsh\n'}
+[10.147163] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.dsv\n'}
+[10.147224] (mecanum) StdoutLine: {'line': b'-- Installing: /home/mark/mecanum_nav/install/mecanum/share/mecanum/package.dsv\n'}
+[10.147282] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/packages/mecanum\n'}
+[10.147338] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/cmake/mecanumConfig.cmake\n'}
+[10.147395] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/cmake/mecanumConfig-version.cmake\n'}
+[10.147461] (mecanum) StdoutLine: {'line': b'-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/package.xml\n'}
+[10.149547] (mecanum) CommandEnded: {'returncode': 0}
+[10.237871] (-) TimerEvent: {}
+[10.244239] (mecanum) JobEnded: {'identifier': 'mecanum', 'rc': 0}
+[10.245369] (-) EventReactorShutdown: {}

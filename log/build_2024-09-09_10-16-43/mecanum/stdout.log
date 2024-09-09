@@ -1,0 +1,75 @@
+[35m[1mConsolidate compiler generated dependencies of target control_lifecycle[0m
+[ 20%] Built target view_frames
+[ 40%] Built target control
+[ 60%] Built target fixed_frame
+[ 80%] Built target followpath_lifecycle
+[ 90%] [32mBuilding CXX object CMakeFiles/control_lifecycle.dir/src/control_lifecycle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable control_lifecycle[0m
+[100%] Built target control_lifecycle
+-- Install configuration: ""
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/gazebo_params.yaml
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/robot_visual.rviz
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/my_controllers.yaml
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/twist_mux.yaml
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/gazebo_control.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/face.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/robot.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/robot_core.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/camera.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/lidar.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/ros2_control.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/depth_camera.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/inertial_macros.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/empty_world.launch.py
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/rsp.launch.py
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/zm_robot_empty_world.launch.py
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/launch_sim.launch.py
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_LR.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_LF.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.transmission.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.gazebo
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/materials.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_RR.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_RF.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.urdf.xacro
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_plugin.gazebo
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel.gazebo
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/IMU_sensor.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_left_after.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/kinect_v2.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/sick_s30b.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_left_before.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_right_before.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/agv_base.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_right_after.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_roller.stl
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/world
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/world/empty.world
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/control
+-- Installing: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/control_lifecycle
+-- Set runtime path of "/home/mark/mecanum_nav/install/mecanum/lib/mecanum/control_lifecycle" to ""
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/followpath_lifecycle
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/fixed_frame
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/view_frames
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/package_run_dependencies/mecanum
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/parent_prefix_path/mecanum
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/path.sh
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/path.dsv
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.bash
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.sh
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.zsh
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.dsv
+-- Installing: /home/mark/mecanum_nav/install/mecanum/share/mecanum/package.dsv
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/packages/mecanum
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/cmake/mecanumConfig.cmake
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/cmake/mecanumConfig-version.cmake
+-- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/package.xml

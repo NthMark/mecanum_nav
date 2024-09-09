@@ -1,0 +1,99 @@
+[0.016s] Invoking command in '/home/mark/mecanum_nav/build/mecanum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/articubot:/opt/ros/humble /usr/bin/cmake --build /home/mark/mecanum_nav/build/mecanum -- -j20 -l20
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target control_lifecycle[0m
+[0.093s] [ 20%] Built target view_frames
+[0.095s] [ 40%] Built target control
+[0.096s] [ 60%] Built target fixed_frame
+[0.102s] [ 80%] Built target followpath_lifecycle
+[0.108s] [ 90%] [32mBuilding CXX object CMakeFiles/control_lifecycle.dir/src/control_lifecycle.cpp.o[0m
+[0.385s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:203:9:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[0.385s]   203 |         [01;35m[K/[m[K/ get_logger(), "Lifecycle publisher is active. Publishing: linear: x= %f y= %f z= %f \n -----\n angular: x= %f y= %f z=%f", \
+[0.385s]       |         [01;35m[K^[m[K
+[2.916s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleControl::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[2.917s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:65:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.917s]    65 |     [01;35m[Kconst std::shared_ptr<const nav2_msgs::action::NavigateToPose::Feedback> feedback[m[K)
+[2.917s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.927s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleControl::publish()[m[K’:
+[2.927s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kw1[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.927s]   190 |     double_t [01;35m[Kw1[m[K,w2,w3,w4;
+[2.927s]       |              [01;35m[K^~[m[K
+[2.927s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kw2[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.927s]   190 |     double_t w1,[01;35m[Kw2[m[K,w3,w4;
+[2.927s]       |                 [01;35m[K^~[m[K
+[2.927s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kw3[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.927s]   190 |     double_t w1,w2,[01;35m[Kw3[m[K,w4;
+[2.927s]       |                    [01;35m[K^~[m[K
+[2.927s] [01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:190:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kw4[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.927s]   190 |     double_t w1,w2,w3,[01;35m[Kw4[m[K;
+[2.927s]       |                       [01;35m[K^~[m[K
+[9.457s] [100%] [32m[1mLinking CXX executable control_lifecycle[0m
+[10.028s] [100%] Built target control_lifecycle
+[10.045s] Invoked command in '/home/mark/mecanum_nav/build/mecanum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/articubot:/opt/ros/humble /usr/bin/cmake --build /home/mark/mecanum_nav/build/mecanum -- -j20 -l20
+[10.126s] Invoking command in '/home/mark/mecanum_nav/build/mecanum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/articubot:/opt/ros/humble /usr/bin/cmake --install /home/mark/mecanum_nav/build/mecanum
+[10.136s] -- Install configuration: ""
+[10.137s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config
+[10.137s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/mapper_params_online_async.yaml
+[10.137s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/gazebo_params.yaml
+[10.137s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/robot_visual.rviz
+[10.137s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/my_controllers.yaml
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/config/twist_mux.yaml
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/gazebo_control.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/face.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/robot.urdf.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/robot_core.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/camera.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/lidar.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/ros2_control.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/depth_camera.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/description/inertial_macros.xacro
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/empty_world.launch.py
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/rsp.launch.py
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/zm_robot_empty_world.launch.py
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/launch/launch_sim.launch.py
+[10.138s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot.urdf.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_LR.urdf.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_LF.urdf.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.transmission.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.gazebo
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/materials.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_RR.urdf.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel_RF.urdf.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_roller.urdf.xacro
+[10.139s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_plugin.gazebo
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/urdf/zm_robot_wheel.gazebo
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/IMU_sensor.stl
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_left_after.stl
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/kinect_v2.stl
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/sick_s30b.stl
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_left_before.stl
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_right_before.stl
+[10.140s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/agv_base.stl
+[10.141s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_right_after.stl
+[10.141s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/meshes/mecanum_roller.stl
+[10.141s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/world
+[10.141s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/world/empty.world
+[10.141s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/control
+[10.141s] -- Installing: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/control_lifecycle
+[10.144s] -- Set runtime path of "/home/mark/mecanum_nav/install/mecanum/lib/mecanum/control_lifecycle" to ""
+[10.144s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/followpath_lifecycle
+[10.145s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/fixed_frame
+[10.145s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/lib/mecanum/view_frames
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/package_run_dependencies/mecanum
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/parent_prefix_path/mecanum
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/ament_prefix_path.sh
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/ament_prefix_path.dsv
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/path.sh
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/environment/path.dsv
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.bash
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.sh
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.zsh
+[10.146s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/local_setup.dsv
+[10.147s] -- Installing: /home/mark/mecanum_nav/install/mecanum/share/mecanum/package.dsv
+[10.147s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/ament_index/resource_index/packages/mecanum
+[10.147s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/cmake/mecanumConfig.cmake
+[10.147s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/cmake/mecanumConfig-version.cmake
+[10.147s] -- Up-to-date: /home/mark/mecanum_nav/install/mecanum/share/mecanum/package.xml
+[10.150s] Invoked command in '/home/mark/mecanum_nav/build/mecanum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mark/mecanum_nav/install/py_srvcli:/home/mark/mecanum_nav/install/py_pubsub:/home/mark/mecanum_nav/install/learning_tf2_py:/home/mark/mecanum_nav/install/turtle_nav:/home/mark/mecanum_nav/install/test_mecanum:/home/mark/mecanum_nav/install/python_parameters:/home/mark/mecanum_nav/install/launch_tutorial:/home/mark/mecanum_nav/install/joint_state_publisher_gui:/home/mark/mecanum_nav/install/joint_state_publisher:/home/mark/mecanum_nav/install/guard_conditions:/home/mark/mecanum_nav/install/articubot:/opt/ros/humble /usr/bin/cmake --install /home/mark/mecanum_nav/build/mecanum

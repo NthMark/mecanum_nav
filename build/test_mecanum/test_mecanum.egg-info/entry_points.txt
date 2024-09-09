@@ -1,0 +1,3 @@
+[console_scripts]
+rm_move = test_mecanum.zm_robot_move:main
+

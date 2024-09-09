@@ -1,0 +1,104 @@
+[0.414s] Invoking command in '/home/mark/mecanum_nav/src/test_mecanum': PYTHONPATH=/home/mark/mecanum_nav/build/test_mecanum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_mecanum build --build-base /home/mark/mecanum_nav/build/test_mecanum/build install --record /home/mark/mecanum_nav/build/test_mecanum/install.log --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.553s] creating ../../build/test_mecanum/test_mecanum.egg-info
+[0.553s] writing ../../build/test_mecanum/test_mecanum.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../build/test_mecanum/test_mecanum.egg-info/dependency_links.txt
+[0.554s] writing entry points to ../../build/test_mecanum/test_mecanum.egg-info/entry_points.txt
+[0.554s] writing requirements to ../../build/test_mecanum/test_mecanum.egg-info/requires.txt
+[0.554s] writing top-level names to ../../build/test_mecanum/test_mecanum.egg-info/top_level.txt
+[0.554s] writing manifest file '../../build/test_mecanum/test_mecanum.egg-info/SOURCES.txt'
+[0.555s] reading manifest file '../../build/test_mecanum/test_mecanum.egg-info/SOURCES.txt'
+[0.555s] adding license file 'LICENSE'
+[0.555s] writing manifest file '../../build/test_mecanum/test_mecanum.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] creating /home/mark/mecanum_nav/build/test_mecanum/build
+[0.555s] creating /home/mark/mecanum_nav/build/test_mecanum/build/lib
+[0.555s] creating /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum
+[0.555s] copying test_mecanum/__init__.py -> /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum
+[0.555s] copying test_mecanum/zm_robot_action.py -> /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum
+[0.556s] copying test_mecanum/zm_robot_move.py -> /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum
+[0.556s] copying test_mecanum/zm_robot_navigator.py -> /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum
+[0.556s] running install
+[0.556s] running install_lib
+[0.556s] creating /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum
+[0.556s] copying /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum/__init__.py -> /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum
+[0.556s] copying /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum/zm_robot_action.py -> /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum
+[0.556s] copying /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum/zm_robot_move.py -> /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum
+[0.556s] copying /home/mark/mecanum_nav/build/test_mecanum/build/lib/test_mecanum/zm_robot_navigator.py -> /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum
+[0.556s] byte-compiling /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum/__init__.py to __init__.cpython-310.pyc
+[0.556s] byte-compiling /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum/zm_robot_action.py to zm_robot_action.cpython-310.pyc
+[0.557s] byte-compiling /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum/zm_robot_move.py to zm_robot_move.cpython-310.pyc
+[0.557s] byte-compiling /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum/zm_robot_navigator.py to zm_robot_navigator.cpython-310.pyc
+[0.559s] running install_data
+[0.559s] creating /home/mark/mecanum_nav/install/test_mecanum/share/ament_index
+[0.559s] creating /home/mark/mecanum_nav/install/test_mecanum/share/ament_index/resource_index
+[0.559s] creating /home/mark/mecanum_nav/install/test_mecanum/share/ament_index/resource_index/packages
+[0.559s] copying resource/test_mecanum -> /home/mark/mecanum_nav/install/test_mecanum/share/ament_index/resource_index/packages
+[0.559s] copying package.xml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum
+[0.559s] creating /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] copying launch/empty_world.launch.py -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] copying launch/test_nav.launch.py -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] copying launch/zm_robot_empty_world.launch.py -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] copying launch/zm_robot_aws_warehouse.launch.py -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] copying launch/navigation_neo.launch.py -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] copying launch/localization_amcl.launch.py -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/launch
+[0.559s] creating /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.559s] copying meshes/IMU_sensor.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.559s] copying meshes/mecanum_left_after.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.559s] copying meshes/kinect_v2.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.560s] copying meshes/sick_s30b.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.561s] copying meshes/mecanum_left_before.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.562s] copying meshes/mecanum_right_before.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.562s] copying meshes/agv_base.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.562s] copying meshes/mecanum_right_after.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.562s] copying meshes/mecanum_roller.stl -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.562s] copying meshes/MPO-500-BODY.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.563s] copying meshes/MP-400-CASTER-WHEEL.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.563s] copying meshes/d435.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.571s] copying meshes/SICK-S300.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.571s] copying meshes/MP-400-FIXED-WHEEL-RIGHT.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.571s] copying meshes/MPO-500-WHEEL.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.575s] copying meshes/SICK-MICROSCAN3.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.577s] copying meshes/MP-400-BODY.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.577s] copying meshes/MP-400-FIXED-WHEEL-LEFT.dae -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/meshes
+[0.577s] creating /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.577s] copying urdf/zm_robot.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.577s] copying urdf/zm_robot_wheel_LR.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.577s] copying urdf/zm_robot_wheel_LF.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.577s] copying urdf/zm_robot_roller.transmission.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.577s] copying urdf/zm_robot_roller.gazebo -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.577s] copying urdf/mpo_500.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/materials.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/zm_robot_wheel_RR.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/zm_robot_wheel_RF.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/zm_robot_roller.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/zm_robot_plugin.gazebo -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/zm_robot_wheel.gazebo -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] copying urdf/mp_400.urdf.xacro -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/urdf
+[0.578s] creating /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/rviz
+[0.578s] copying rviz/zm_robot_cartographer.rviz -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/rviz
+[0.578s] copying rviz/zm_robot_cartographer_navigation2.rviz -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/rviz
+[0.578s] copying rviz/zm_robot_navigation2.rviz -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/rviz
+[0.578s] creating /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/mp_400.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/mapper_params_online_async.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/aws_warehouse.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/aws.pgm -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/zm_robot_demo.rviz -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/zm_robot_cartographer_move_base.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/zm_robot_lds_2d.lua -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/aws_warehouse.pgm -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/mpo_500.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/zm_robot_lds_2d_localization.lua -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/aws.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/zm_robot.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] copying config/nav2_params.yaml -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/config
+[0.578s] creating /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/world
+[0.578s] copying world/empty.world -> /home/mark/mecanum_nav/install/test_mecanum/share/test_mecanum/world
+[0.578s] running install_egg_info
+[0.579s] Copying ../../build/test_mecanum/test_mecanum.egg-info to /home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages/test_mecanum-0.0.0-py3.10.egg-info
+[0.580s] running install_scripts
+[0.591s] Installing rm_move script to /home/mark/mecanum_nav/install/test_mecanum/lib/test_mecanum
+[0.591s] writing list of installed files to '/home/mark/mecanum_nav/build/test_mecanum/install.log'
+[0.602s] Invoked command in '/home/mark/mecanum_nav/src/test_mecanum' returned '0': PYTHONPATH=/home/mark/mecanum_nav/build/test_mecanum/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mark/mecanum_nav/install/test_mecanum/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_mecanum build --build-base /home/mark/mecanum_nav/build/test_mecanum/build install --record /home/mark/mecanum_nav/build/test_mecanum/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+[01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:203:3:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  203 |   [01;35m[K/[m[K/       // get_logger(), "Lifecycle publisher is active. Publishing: linear: x= %f y= %f z= %f \n -----\n angular: x= %f y= %f z=%f", \
+      |   [01;35m[K^[m[K
+[01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleControl::feedback_callback(rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose>::SharedPtr, std::shared_ptr<const nav2_msgs::action::NavigateToPose_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mark/mecanum_nav/src/mecanum/src/control_lifecycle.cpp:65:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 |     [01;35m[Kconst std::shared_ptr<const nav2_msgs::action::NavigateToPose::Feedback> feedback[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
